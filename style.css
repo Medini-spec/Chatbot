@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+{	align-content: center;
+	box-sizing: border-box;
+	font-family: 'Popppins', sans-serif;
+}
+
+body
+{
+	/*margin: 90v;*/
+	align-items: center;
+	align-content: center;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	height: 300vh;
+	width: 300vh;
+	overflow: hidden;
+	font-weight: 600;
+	display: flex;
+	background: #ecf0f3;
+	color: #555;
+
+}
+
+.login-div{
+	margin: 400px;
+	margin-top: 30px;
+	align-items: center;
+	align-content: center;
+	width: 380px;
+	height: 609px;
+	box-shadow: 10px 10px 20px #cbced1,
+	-10px -10px 20px #ffffff;
+	padding: 50px 35px 35px 35px;
+	border-radius: 40px;
+}
+
+.sign-div{
+
+	margin: 400px;
+	align-items: center;
+	align-content: center;
+	width: 380px;
+	height: 609px;
+	box-shadow: 10px 10px 20px #cbced1,
+	-10px -10px 20px #ffffff;
+	padding: 45px 35px 35px 35px;
+	border-radius: 40px;
+}
+
+.forgot-div{
+	margin: 400px;
+	align-items: center;
+	align-content: center;
+	width: 380px;
+	height: 609px;
+	box-shadow: 10px 10px 20px #cbced1,
+	-10px -10px 20px #ffffff;
+	padding: 45px 35px 35px 35px;
+	border-radius: 40px;
+}
+
+.logo p{
+	align-items: center;
+	align-content: center;
+	margin-top: 5px;
+	margin-left: 140px;
+	margin-bottom: 8px;
+	display: flex;
+	border: 6px solid red;
+	background: black;
+	width: 70px;
+	height: 80px;
+	padding: 10px;
+	font-size: 50px;
+	color: grey;
+	box-shadow: inset 0 0 2px red,
+	 inset 0 0 5px red,
+	 inset 8px 8px 15px red,
+	inset -8px -8px 15px red;
+	/*box-shadow: inset 10px 10px 10px red,
+	inset -10px -10px 5px red, 
+	inset -10px -10px 10px red,
+	inset 10px 10px 5px red;*/
+	border-radius: 50%;
+}
+
+.title{
+	text-align: center;
+	font-size: 30px;
+	color: red;
+	text-shadow:
+	10px 10px 15px grey,
+	-10px -10px 15px grey;
+	padding-top: 24px ; 
+	font-weight: 800; 
+}
+
+.login-in {
+	width: 100%;
+	padding: 60px 5px 5px 5px ;
+}
+
+.sign-up {
+
+	width: 100%;
+	padding: 7px 5px 5px 5px ;
+}
+
+.login-in input,
+.sign-up input{
+	border:none;
+	outline: none;
+	font-family: 'Poppins', sans-serif;
+	background: none;
+	font-size: 20px;
+	color: #555;
+	padding: 18px 10px 18px 1px;
+}
+
+.username,
+.password{
+	box-shadow: inset 5px 5px 8px #cbced1,
+	inset -5px -5px 8px #ffffff;
+	border-radius: 50px;
+	margin-bottom: 30px;
+}
+
+.username::placeholder,
+.password::placeholder{
+	color: #999;
+	font-family: 'Poppins',sans-serif;
+
+}
+
+.login-in i,
+.sign-up i{
+	height: 22px;
+	color: #999;
+	margin: 0 10px -3px 25px ;
+	font-size: 18px;
+
+}
+
+.button{
+	outline: none;
+	border:none;
+	cursor: pointer;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	background: #FC5130;
+	height: 60px;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	box-shadow: 5px 5px 8px #b1b1b1,
+	-5px -5px 8px #ffffff; 
+
+}
+
+.button:hover{
+
+	background: #000;
+
+}
+
+.button:active{
+	background: #fc5130;
+
+}
+a{
+	text-decoration: none;
+	color: #777;
+	font-family: 'Poppins', sans-serif;
+}
+
+.link a{
+	color: #aaa;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.link a:hover{
+
+	color: #000;
+}
+
+.homeback{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	text-align: center ;
+	justify-content: center ;
+	display: flex;
+
+}
+
+.homebox{
+	width: 380px;
+	padding: 45px 3px 35px 35px ;
+
+}
+
+.success-check{
+	color: #fc5130;
+	margin: 0 auto;
+}
+
+.success-check i{
+	font-size: 3rem;
+
+
+}
+
+img{
+	height: 250px;
+	width: 100%;
+
+}
+
+
+.plain{
+	background: white;
+}
